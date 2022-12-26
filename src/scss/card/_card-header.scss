@@ -1,0 +1,9 @@
+@use "../utils/variables" as colors;
+
+.card__header {
+  .header__img {
+    padding: 0.7rem;
+    background-color: colors.$rounded;
+    border-radius: 50%;
+  }
+}

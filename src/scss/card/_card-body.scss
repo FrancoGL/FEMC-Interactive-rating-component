@@ -1,0 +1,36 @@
+@use "../utils/variables" as colors;
+
+.card__body {
+
+  .body__paragraph {
+    font-size: 0.938rem;
+    color: colors.$medium-grey;
+    line-height: 1.5;
+  }
+
+  .btn__container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    .btn__number {
+      width: 2.5rem;
+      height: 2.5rem;
+      border-radius: 50%;
+      border: none;
+      background-color: colors.$rounded;
+      color: colors.$light-grey;
+    }
+  }
+
+  .btn__submit {
+    width: 100%;
+    padding: 1rem 0;
+    margin-top: 1.5rem;
+    background-color: colors.$orange;
+    border: none;
+    border-radius: 5rem;
+    color: colors.$white;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+  }
+}
