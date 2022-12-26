@@ -11,3 +11,10 @@ body {
   color: colors.$white;
   font-family: 'Overpass', sans-serif;
 }
+
+#root {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,7 +1,7 @@
 export const Btn = ({number, className}) => {
     if (number) {
         return (
-            <button className={className}>{number}</button>
+            <button className={className}><span>{number}</span></button>
         )
     } else {
         return (
