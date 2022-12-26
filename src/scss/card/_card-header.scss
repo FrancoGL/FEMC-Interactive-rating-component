@@ -2,8 +2,21 @@
 
 .card__header {
   .header__img {
-    padding: 0.7rem;
+    padding: 1rem;
     background-color: colors.$rounded;
     border-radius: 50%;
+  }
+
+  .header__stars {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.65rem 1rem  0.5rem 1rem;
+    background-color: colors.$rounded;
+    color: colors.$orange;
+    border-radius: 2rem;
+
+    p {
+      margin: 0;
+    }
   }
 }
