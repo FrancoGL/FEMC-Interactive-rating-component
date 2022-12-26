@@ -1,0 +1,13 @@
+@use "../utils/variables" as colors;
+
+body {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0.5rem;
+  height: 100vh;
+  background-color: colors.$very-dark-blue;
+  color: colors.$white;
+  font-family: 'Overpass', sans-serif;
+}

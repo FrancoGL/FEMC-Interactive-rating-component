@@ -1,0 +1,9 @@
+@use "../utils/variables" as colors;
+@use "./card-header";
+@use "./card-body";
+
+.card {
+  padding: 2rem 1.5rem;
+  background-color: colors.$dark-blue;
+  border-radius: 0.938rem;
+}
