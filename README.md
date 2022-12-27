@@ -15,11 +15,11 @@ Users should be able to:
 
 ### Mobile
 
-<img src="#" width="300px">
+<img src="https://user-images.githubusercontent.com/66887467/209716595-4e181d7f-84bf-4931-800f-33792f7a4bea.png" width="300px">
 
 ### Desktop
 
-<img src="#" width="400px">
+<img src="https://user-images.githubusercontent.com/66887467/209716639-aa62e716-6827-40a1-b4b9-16e933dd8801.png" width="400px">
 
 ### Links
 
