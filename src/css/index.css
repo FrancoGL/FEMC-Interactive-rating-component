@@ -24,18 +24,21 @@ body {
 }
 .card__header .header__stars {
   display: inline-block;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   padding: 0.65rem 1rem 0.5rem 1rem;
   background-color: hsl(214deg, 13%, 24%);
   color: hsl(25deg, 97%, 53%);
   border-radius: 2rem;
 }
 .card__header .header__stars p {
-  margin: 0;
+  margin: 0.1rem 0 0 0;
 }
 
 .card__body .body__title {
   margin: 1rem 0;
+}
+.card__body .body__title.alter {
+  margin-top: 2rem;
 }
 .card__body .body__paragraph {
   font-size: 0.938rem;
@@ -56,10 +59,15 @@ body {
   background-color: hsl(214deg, 13%, 24%);
   color: hsl(217deg, 12%, 63%);
 }
+.card__body .btn__container .btn__number:focus {
+  background-color: hsl(217deg, 12%, 63%);
+  color: hsl(0deg, 0%, 100%);
+}
 .card__body .btn__submit {
   width: 100%;
   padding: 1rem 0;
   margin-top: 1.5rem;
+  font-weight: 700;
   background-color: hsl(25deg, 97%, 53%);
   border: none;
   border-radius: 5rem;
@@ -68,6 +76,18 @@ body {
   letter-spacing: 0.2rem;
 }
 
+@media screen and (min-width: 1024px) {
+  .card__body .btn__number:hover {
+    background-color: hsl(25deg, 97%, 53%);
+    color: hsl(0deg, 0%, 100%);
+    transition: background-color, color 0.3s ease-in;
+  }
+  .card__body .btn__submit:hover {
+    background-color: hsl(0deg, 0%, 100%);
+    color: hsl(25deg, 97%, 53%);
+    transition: background-color 0.2s ease-in;
+  }
+}
 .card {
   width: 19rem;
   padding: 1.5rem 1.5rem;
@@ -78,9 +98,21 @@ body {
   text-align: center;
 }
 
+@media screen and (min-width: 1024px) {
+  .card {
+    width: 21rem;
+  }
+}
 .attribution {
   margin-top: 2rem;
   text-align: center;
+}
+.attribution a {
+  color: hsl(25deg, 97%, 53%);
+  text-decoration: none;
+}
+.attribution a:visited {
+  color: coral;
 }
 
 /*# sourceMappingURL=index.css.map */

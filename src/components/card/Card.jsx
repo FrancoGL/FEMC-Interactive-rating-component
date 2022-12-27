@@ -3,9 +3,9 @@ import {CardBody} from "./CardBody.jsx";
 
 export const Card = () => {
     return (
-        <section className={"card"}>
+        <main className={"card"}>
             <CardHeader></CardHeader>
             <CardBody></CardBody>
-        </section>
+        </main>
     )
 }

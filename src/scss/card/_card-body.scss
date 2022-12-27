@@ -4,6 +4,10 @@
 
   .body__title {
     margin: 1rem 0;
+
+    &.alter {
+      margin-top: 2rem;
+    }
   }
 
   .body__paragraph {
@@ -24,6 +28,11 @@
       border: none;
       background-color: colors.$rounded;
       color: colors.$light-grey;
+
+      &:focus {
+        background-color: colors.$light-grey;
+        color: colors.$white;
+      }
     }
   }
 
@@ -31,11 +40,28 @@
     width: 100%;
     padding: 1rem 0;
     margin-top: 1.5rem;
+    font-weight: 700;
     background-color: colors.$orange;
     border: none;
     border-radius: 5rem;
     color: colors.$white;
     text-transform: uppercase;
     letter-spacing: 0.2rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .card__body {
+    .btn__number:hover {
+      background-color: colors.$orange;
+      color: colors.$white;
+      transition: background-color,color 0.3s ease-in;
+    }
+
+    .btn__submit:hover {
+      background-color: colors.$white;
+      color: colors.$orange;
+      transition: background-color 0.2s ease-in;
+    }
   }
 }
