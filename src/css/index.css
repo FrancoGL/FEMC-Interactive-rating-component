@@ -107,5 +107,12 @@ body {
   margin-top: 2rem;
   text-align: center;
 }
+.attribution a {
+  color: hsl(25deg, 97%, 53%);
+  text-decoration: none;
+}
+.attribution a:visited {
+  color: coral;
+}
 
 /*# sourceMappingURL=index.css.map */
