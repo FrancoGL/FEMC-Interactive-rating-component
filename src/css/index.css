@@ -82,6 +82,9 @@ body {
     color: hsl(0deg, 0%, 100%);
     transition: background-color, color 0.3s ease-in;
   }
+  .card__body .btn__submit {
+    padding: 0.9rem 0;
+  }
   .card__body .btn__submit:hover {
     background-color: hsl(0deg, 0%, 100%);
     color: hsl(25deg, 97%, 53%);
@@ -101,6 +104,8 @@ body {
 @media screen and (min-width: 1024px) {
   .card {
     width: 21rem;
+    padding: 2rem;
+    border-radius: 1.5rem;
   }
 }
 .attribution {
