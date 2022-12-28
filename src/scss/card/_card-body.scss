@@ -58,6 +58,10 @@
       transition: background-color,color 0.3s ease-in;
     }
 
+    .btn__submit {
+      padding: 0.9rem 0;
+    }
+
     .btn__submit:hover {
       background-color: colors.$white;
       color: colors.$orange;
