@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor](#)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/interactive-rating-component-JZziwnfwTq)
 - Live Site URL: [Live Site with Vercel](https://femc-interactive-rating-component.vercel.app/)
 
 ### Built with
