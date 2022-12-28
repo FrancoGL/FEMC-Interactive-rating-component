@@ -20,9 +20,8 @@ export const Btn = ({number, className}) => {
         return (
             <button className={className} onClick={setNewNumber}>{number}</button>
         )
-    } else {
-        return (
-            <button className={className} onClick={setNewSubmitState}>Submit</button>
-        )
     }
+    return (
+        <button className={className} onClick={setNewSubmitState}>Submit</button>
+    )
 }

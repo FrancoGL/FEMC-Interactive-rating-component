@@ -11,7 +11,8 @@ export const CardBody = () => {
             <div className={"card__body"}>
                 <h1 className={"body__title"}>How did we do?</h1>
 
-                <p className={"body__paragraph"}>Please let us know how we did with your support request. All feedback is appreciated
+                <p className={"body__paragraph"}>Please let us know how we did with your support request. All feedback
+                    is appreciated
                     to help us improve our offering!</p>
 
                 <div className="btn__container">
@@ -25,15 +26,15 @@ export const CardBody = () => {
                 <Btn className={"btn__submit"}></Btn>
             </div>
         )
-    } else {
-        return (
-            <div className="card__body">
-
-                <h1 className="body__title alter">Thank you!</h1>
-
-                <p className="body__paragraph alter">We appreciate you taking the time to give a rating. If you ever need more support,
-                    don’t hesitate to get in touch!</p>
-            </div>
-        )
     }
+    return (
+        <div className="card__body">
+
+            <h1 className="body__title alter">Thank you!</h1>
+
+            <p className="body__paragraph alter">We appreciate you taking the time to give a rating. If you ever need
+                more support,
+                don’t hesitate to get in touch!</p>
+        </div>
+    )
 }
