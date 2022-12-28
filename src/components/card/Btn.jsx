@@ -5,18 +5,24 @@ export const Btn = ({number, className}) => {
 
     const {currentNumber, setNumber, setSubmitState} = useContext(CardContext);
 
+    const setNewNumber = () => {
+        setNumber(number)
+    }
+
+    const setNewSubmitState = () => {
+
+        if (currentNumber !== 0) {
+            setSubmitState(true)
+        }
+    }
+
     if (number) {
         return (
-            <button className={className} onClick={()=> setNumber(number)}>{number}</button>
+            <button className={className} onClick={setNewNumber}>{number}</button>
         )
     } else {
         return (
-            <button className={className} onClick={()=> {
-                if (currentNumber !== 0) {
-                    setSubmitState(true)
-                }
-            }
-            }>Submit</button>
+            <button className={className} onClick={setNewSubmitState}>Submit</button>
         )
     }
 }
